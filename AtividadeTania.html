@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML Atividade Tania CN</h1>
+
+<p>Teste.</p>
+
+<form>
+    x<sup>5</sup>: <input type="text" name="num5"><br>
+    x<sup>4</sup>: <input type="text" name="num4"><br>
+    x<sup>3</sup>: <input type="text" name="num3"><br>
+    x<sup>2</sup>: <input type="text" name="num2"><br>
+    x: <input type="text" name="num1"><br>
+    n°: <input type="text" name="num0"><br>
+    épsilon: <input type="text" name="epsilon"><br>
+    Função: <input type="text" name="document.getElementsByName("num5")[0].value = sum"><br>
+    <input type="button" value="Carregar" onclick="montarFuncao()">
+</form>
+
+<script>
+    function montarFuncao() {
+        let num1 = document.getElementsByName("num1")[0].value;
+        let num2 = document.getElementsByName("num2")[0].value;
+        let sum = Number(num1) + Number(num2);
+        document.getElementsByName("sum")[0].value = sum;
+    }
+</script>
+
+<script>
+    function calcSum() {
+        let num1 = document.getElementsByName("num1")[0].value;
+        let num2 = document.getElementsByName("num2")[0].value;
+        let sum = Number(num1) + Number(num2);
+        document.getElementsByName("sum")[0].value = sum;
+    }
+</script>
+
+</body>
+</html>
